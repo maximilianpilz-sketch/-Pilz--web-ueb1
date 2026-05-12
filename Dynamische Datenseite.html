@@ -17,7 +17,8 @@
   });
         </script>
     <ul id="service-linz"></ul>
-          <script> // Daten vom Server laden (Servicecall)
+          <script> 
+        // Daten vom Server laden (Servicecall)
   fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json()) // Antwort in JSON umwandeln
     .then(data => {
